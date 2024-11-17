@@ -1,5 +1,6 @@
 import Navdash from '@/components/nav-dash';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -41,9 +42,11 @@ export default function Home() {
               to help you navigate life's challenges. Whether you need a listening ear or professional advice,
               we're always here, anytime, anywhere."
             </p>
+            <Link href="/chatbot">
             <button className="bg-green-700 text-white font-semibold px-6 py-2 rounded-lg hover:bg-green-800 transition">
               TRY NEW CHAT →
             </button>
+            </Link>
           </div>
         </section>
     </>
